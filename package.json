@@ -1,0 +1,14 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"TODO: write tests\"",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm start",
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\""
+  },
+  "author": "omayma akrach, loubna msalla",
+  "license": "MIT"
+}
